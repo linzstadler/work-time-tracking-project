@@ -1,7 +1,7 @@
 # work-time-tracking-project
 * Source code is not available because of privacy policy
 
-This is a project and employees management system for company.
+This is a project and employees management system for company.<br/>
 This project developed by Angular 11 (Rxjs, Ngrx, Sass, Lazy loading)
 
 
