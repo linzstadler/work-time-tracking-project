@@ -8,10 +8,23 @@ This project developed by Angular 11 (Rxjs, Ngrx, Sass, Lazy loading)
 <img src = "https://github.com/linzstadler/work-time-tracking-project/blob/0a9717f05561021223560d00f038817656a04550/login.PNG" style="vertical-align:middle" title = "work-time-tracking-project" width = "30%"/>   <img src = "https://github.com/linzstadler/work-time-tracking-project/blob/0a9717f05561021223560d00f038817656a04550/dashboard.png" title = "work-time-tracking-project" width = "30%"/>   <img src = "https://github.com/linzstadler/work-time-tracking-project/blob/0a9717f05561021223560d00f038817656a04550/lunch.png" title = "work-time-tracking-project" width = "30%"/>   <img src = "https://github.com/linzstadler/work-time-tracking-project/blob/0a9717f05561021223560d00f038817656a04550/presence.png" title = "work-time-tracking-project" width = "30%"/>   <img src = "https://github.com/linzstadler/work-time-tracking-project/blob/0a9717f05561021223560d00f038817656a04550/tasks.png" title = "work-time-tracking-project" width = "30%"/>   <img src = "https://github.com/linzstadler/work-time-tracking-project/blob/0a9717f05561021223560d00f038817656a04550/report.png" title = "work-time-tracking-project" width = "30%"/>   <img src = "https://github.com/linzstadler/work-time-tracking-project/blob/0a9717f05561021223560d00f038817656a04550/report-lunch.png" title = "work-time-tracking-project" width = "30%"/>
 
 
-<style>
-  img {
-    vertical-align: top;
-  }
-  
-</style>
-
+html,body,.container {
+ height: 100%;
+}
+.container {
+ display: table;
+}
+.row
+{
+ height: 100%;
+ display: table-row;
+}
+.vertical-center
+{
+ display: table-cell;
+ float: none;
+ vertical-align: middle;
+}
+img {
+  vertical-align: middle;
+}
